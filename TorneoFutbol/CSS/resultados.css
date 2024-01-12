@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    height: auto;
+}
+
+header{
+    background-color: red;
+    overflow: hidden;
+    height: 120px;
+}
+
+section{
+    background: url(../Imagenes/bg_3.jpg) no-repeat;
+    background-color: black;
+}
+
+.contenedor{
+    margin: auto;
+    overflow: hidden;
+    width: auto;
+}
+
+.logotipo{
+    padding: 40px 0 60px 40px;
+    margin-left: 20px;
+    float: left;
+}
+
+nav{
+    float: left;
+    margin-left: 320px;
+    padding-top: 25px;
+}
+
+nav ul{
+    float: left;
+    padding-top: 25px;
+}   
+
+nav ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 2px 20px 2px 20px;
+}   
+
+nav li a:hover{
+    color: black;
+    text-decoration: black;
+}
+
+.contenido{
+    background-color: rgb(0, 0, 0, 0.75);
+}
+
+.content{
+    float: right;
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: auto;
+    height: auto;
+}
+
+.content h1{
+    padding: 20px;
+    text-align: center;
+    font-style: normal;
+}
+
+
+.marcador{
+    margin: 25px 25px 25px 25px;
+    padding: 10px;
+    width: 1220px;
+    float: left;
+}
+
+.proximosPartidos{
+    margin: 25px;
+    padding: 10px;
+    width: 1220px;
+    float: left;
+    background-color: #2a2a2a;
+}
+
+.equipoUno{
+    margin-left: 340px;
+    float: left;
+}
+
+.equipoUno img{
+    margin: 5px;
+}
+
+.equipoUno h3, p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.equipoUno h4{
+    text-align: center;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.equipoDos{
+    margin-left: 120px;
+    float: left;
+}
+
+.equipoDos img{
+    margin: 5px;
+}
+
+.equipoDos h3, p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.equipoDos h4{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+#btnAgregar{
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 8px;
+    color: white;
+    background-color: red;
+    float: left;
+    text-align: center;
+}
+
+#btnAgregar:hover{
+    background-color: grey;
+    color: white;
+}
+
+#versus{
+    margin: 25px;
+    padding: 10px;
+    width: 1110px;
+    height: auto;
+    float: left;
+    text-align: center;
+    color: red;
+}
+
+#versus h3, p{
+    color: #ffffff;
+}
+
+footer{ 
+    height: 90px;
+    background-color: red;
+}
+
+#derechos{
+    padding-top: 30px;
+    text-align: center;
+    color: #ffffff;
+}

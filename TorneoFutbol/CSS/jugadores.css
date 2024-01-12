@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    height: auto;
+}
+
+header{
+    background-color: red;
+    overflow: hidden;
+    height: 120px;
+}
+
+section{
+    background-image: url(../Imagenes/bg_3.jpg);
+    background-color: black;
+}
+
+.contenedor{
+    margin: auto;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+.logotipo{
+    padding: 40px 0 60px 40px;
+    margin-left: 20px;
+    float: left;
+}
+
+nav{
+    float: left;
+    margin-left: 320px;
+    padding-top: 25px;
+}
+
+nav ul{
+    float: left;
+    padding-top: 25px;
+}   
+
+nav ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 2px 20px 2px 20px;
+}   
+
+li a:hover{
+    color: black;
+    text-decoration: black;
+}
+
+.contenido{
+    background-color: rgb(0, 0, 0, 0.75);
+}
+
+.content{
+    float: right;
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 75px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.equipos{
+    margin: 25px;
+    padding: 10px;
+    width: 1220px;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid red;
+    background-color: rgb(0, 0, 0);
+}
+
+td{
+    background-color: rgb(50, 50, 50);
+}
+
+td a:hover{
+    color: blue;
+    text-decoration: underline blue;
+}
+
+#btnAgregar{
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 8px;
+    color: white;
+    background-color: red;
+    float: left;
+}
+
+#btnAgregar:hover{
+    background-color: grey;
+    color: white;
+}
+
+footer{ 
+    height: 90px;
+    background-color: red;
+}
+
+#derechos{
+    padding-top: 30px;
+    text-align: center;
+    color: #ffffff;
+}

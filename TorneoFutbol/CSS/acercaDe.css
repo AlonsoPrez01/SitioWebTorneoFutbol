@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    height: auto;
+}
+
+header{
+    background-color: red;
+    overflow: hidden;
+    height: 120px;
+}
+
+section{
+    background: url(../Imagenes/bg_3.jpg) no-repeat;
+    background-color: rgb(90, 90, 90);
+}
+
+.contenedor{
+    margin: auto;
+    overflow: hidden;
+    width: auto;
+}
+
+.logotipo{
+    padding: 40px 0 60px 40px;
+    margin-left: 20px;
+    float: left;
+}
+
+nav{
+    float: left;
+    margin-left: 320px;
+    padding-top: 25px;
+}
+
+nav ul{
+    float: left;
+    padding-top: 25px;
+}   
+
+nav ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 2px 20px 2px 20px;
+}   
+
+nav li a:hover{
+    color: black;
+    text-decoration: black;
+}
+
+.contenido{
+    background-color: rgb(0, 0, 0, 0.75);
+}
+
+.content{
+    float: right;
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 75px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: auto;
+    height: auto;
+}
+
+.acercaDe{
+    margin: 10px 25px 10px 25px;
+    padding: 10px;
+    width: 1220px;
+    height: 1145px;
+    float: left;
+    text-align: center;
+}
+
+.contacto{
+    margin: 10px 25px 10px 25px;
+    padding: 20px 10px 10px 10px;
+    width: 1220px;
+    float: left;
+    text-align: center;
+}
+
+.formulario{
+    width: 550px;
+    height: 650px;
+    margin-top: 100px;
+    padding-left: 50px;
+    float: left;
+}
+
+.correoContacto{
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+.correoContacto::placeholder{
+    color: black;
+    font-weight: 200;
+}
+
+#textoCorreo{
+    width: 500px;
+    height: 250px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    float: left;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#textoCorreo::placeholder{
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#btnEnviar{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: white;
+    background-color: red;
+    float: left;
+}
+
+#btnEnviar:hover{
+    color: black;
+}
+
+.infoContacto{
+    width: 350px;
+    height: 350px;
+    margin-top: 80px;
+    padding-left: 650px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.links{
+    color: red;
+}
+
+.links:hover{
+    color: blue;
+}
+
+footer{ 
+    height: 90px;
+    background-color: red;
+}
+
+#derechos{
+    padding-top: 30px;
+    text-align: center;
+    color: #ffffff;
+}
